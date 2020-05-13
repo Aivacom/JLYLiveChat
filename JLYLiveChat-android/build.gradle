@@ -1,0 +1,52 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    repositories {
+        mavenLocal()
+        //内网maven
+//        maven { url "http://repo.yypm.com:8181/nexus/content/groups/public" }
+//        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/releases' }
+//        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/snapshots' }
+//        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/thirdparty' }
+
+        //外网maven
+        maven { url "http://nexus.sunclouds.com:8081/nexus/content/groups/public/" }
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        //内网maven
+//        maven { url "http://repo.yypm.com:8181/nexus/content/groups/public" }
+//        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/releases' }
+//        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/snapshots' }
+//        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/thirdparty' }
+
+        //外网maven
+        maven { url "http://nexus.sunclouds.com:8081/nexus/content/groups/public/" }
+
+        google()
+        jcenter()
+    }
+}
+
+ext{
+
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

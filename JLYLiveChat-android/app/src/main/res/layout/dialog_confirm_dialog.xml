@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="137dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_white_round"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="房主关闭了该房间，所有成员已被踢出。"
+        android:textColor="#FF1D1D1D"
+        android:textSize="16sp" />
+
+
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E6E6E6" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp45"
+        android:layout_weight="1"
+        android:background="@color/white95"
+        android:text="知道了"
+        android:textColor="#FF6485F9"
+        android:textSize="16sp" />
+
+</LinearLayout>
+
+

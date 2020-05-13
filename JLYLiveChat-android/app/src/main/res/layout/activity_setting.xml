@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mediaroom.ui.SettingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@mipmap/icon_back"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#FF333333"
+            android:textSize="16sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_livetitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_margin="@dimen/dp20"
+        android:background="@drawable/bg_setting"
+        android:paddingLeft="@dimen/dp15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center"
+
+            android:text="开播档位"
+            android:textColor="@color/black95"
+            android:textSize="@dimen/sp15" />
+
+        <TextView
+            android:id="@+id/tv_setting_live"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@mipmap/ic_more"
+            android:drawablePadding="@dimen/dp4"
+            android:gravity="center"
+            android:paddingRight="@dimen/dp10"
+            android:text="流畅"
+            android:textColor="@color/scloud_grey"
+            android:textSize="@dimen/sp15" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_mixtitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp10"
+        android:background="@drawable/bg_setting"
+        android:paddingLeft="@dimen/dp15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center"
+            android:text="推流档位"
+            android:textColor="@color/black95"
+            android:textSize="@dimen/sp15" />
+
+        <TextView
+            android:id="@+id/tv_setting_mix"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@mipmap/ic_more"
+            android:drawablePadding="@dimen/dp4"
+            android:gravity="center"
+            android:paddingRight="@dimen/dp10"
+            android:text="流畅"
+            android:textColor="@color/scloud_grey"
+            android:textSize="@dimen/sp15" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_push_url"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_margin="@dimen/dp20"
+        android:background="@drawable/bg_feedback_content"
+        android:gravity="left|center"
+        android:hint="@string/mix_pushurl_tip"
+        android:inputType="textMultiLine"
+        android:paddingLeft="@dimen/dp15"
+        android:textColor="@color/black95"
+        android:textSize="@dimen/sp15" />
+
+    <Button
+        android:id="@+id/btn_push_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:background="@drawable/btn_selector_status"
+        android:text="@string/start_push_mixstream"
+        android:textColor="@color/white95"
+        android:textSize="@dimen/sp15" />
+</LinearLayout>

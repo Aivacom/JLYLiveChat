@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D15B559A3A5A7A9942A2DF8F /* libPods-LiveChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9780E50DC08E7CA5A6143FA9 /* libPods-LiveChat.a */; };
+		E5341268234D90F500D9AA77 /* DataEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = E5341267234D90F500D9AA77 /* DataEnvironment.m */; };
+		E534126B234E064900D9AA77 /* ThunderUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E534126A234E064900D9AA77 /* ThunderUserInfo.m */; };
+		E534126E234E2A5C00D9AA77 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = E534126D234E2A5C00D9AA77 /* CanvasView.m */; };
+		E5341271234F072500D9AA77 /* LivingRoomViewController+Thunder.m in Sources */ = {isa = PBXBuildFile; fileRef = E5341270234F072500D9AA77 /* LivingRoomViewController+Thunder.m */; };
+		E5341274234F0BC900D9AA77 /* LivingRoomViewController+Hummer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5341273234F0BC900D9AA77 /* LivingRoomViewController+Hummer.m */; };
+		E592662A234C97AE00EAC21F /* ToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E5926628234C97AE00EAC21F /* ToolBar.m */; };
+		E5C62EE12338C75C009FEAFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62EE02338C75C009FEAFB /* AppDelegate.m */; };
+		E5C62EE42338C75C009FEAFB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62EE32338C75C009FEAFB /* SceneDelegate.m */; };
+		E5C62EEA2338C75C009FEAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C62EE82338C75C009FEAFB /* Main.storyboard */; };
+		E5C62EEC2338C75D009FEAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C62EEB2338C75D009FEAFB /* Assets.xcassets */; };
+		E5C62EEF2338C75D009FEAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C62EED2338C75D009FEAFB /* LaunchScreen.storyboard */; };
+		E5C62EF22338C75D009FEAFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62EF12338C75D009FEAFB /* main.m */; };
+		E5C62F242338D3FB009FEAFB /* JoinRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F002338D3FB009FEAFB /* JoinRoomViewController.m */; };
+		E5C62F262338D3FB009FEAFB /* MemberListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F032338D3FB009FEAFB /* MemberListViewController.m */; };
+		E5C62F272338D3FB009FEAFB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F042338D3FB009FEAFB /* LoginViewController.m */; };
+		E5C62F282338D3FB009FEAFB /* HummerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F0A2338D3FB009FEAFB /* HummerManager.m */; };
+		E5C62F292338D3FB009FEAFB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F0D2338D3FB009FEAFB /* User.m */; };
+		E5C62F2A2338D3FB009FEAFB /* ChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F0F2338D3FB009FEAFB /* ChatMessage.m */; };
+		E5C62F2B2338D3FB009FEAFB /* SystemMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F112338D3FB009FEAFB /* SystemMessage.m */; };
+		E5C62F2C2338D3FB009FEAFB /* HMRUser+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F122338D3FB009FEAFB /* HMRUser+Additions.m */; };
+		E5C62F2D2338D3FB009FEAFB /* HMRChatRoom+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F152338D3FB009FEAFB /* HMRChatRoom+Additions.m */; };
+		E5C62F2E2338D3FB009FEAFB /* MemberListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F192338D3FB009FEAFB /* MemberListCell.m */; };
+		E5C62F2F2338D3FB009FEAFB /* MessageSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F1A2338D3FB009FEAFB /* MessageSendView.m */; };
+		E5C62F312338D3FB009FEAFB /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F202338D3FB009FEAFB /* MessageCell.m */; };
+		E5C62F332338D3FB009FEAFB /* JoinOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F232338D3FB009FEAFB /* JoinOperationView.m */; };
+		E5C62F36233A0A59009FEAFB /* LivingOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F35233A0A59009FEAFB /* LivingOperationView.m */; };
+		E5C62F39233A55E6009FEAFB /* LivingRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F38233A55E6009FEAFB /* LivingRoomViewController.m */; };
+		E5C62F3C233B74CB009FEAFB /* ThunderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F3B233B74CA009FEAFB /* ThunderManager.m */; };
+		E5C62F47233FB0FD009FEAFB /* UserPickerData.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C62F46233FB0FD009FEAFB /* UserPickerData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DE0BEFD4ECF64F988208441 /* Pods-SCloudLiveChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCloudLiveChat.release.xcconfig"; path = "Target Support Files/Pods-SCloudLiveChat/Pods-SCloudLiveChat.release.xcconfig"; sourceTree = "<group>"; };
+		40332E5136D3F92906D7CCD3 /* Pods-SCloudLiveChat.distribute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCloudLiveChat.distribute.xcconfig"; path = "Target Support Files/Pods-SCloudLiveChat/Pods-SCloudLiveChat.distribute.xcconfig"; sourceTree = "<group>"; };
+		9780E50DC08E7CA5A6143FA9 /* libPods-LiveChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D573302BA3034429B98ED9 /* Pods-SCloudLiveChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCloudLiveChat.debug.xcconfig"; path = "Target Support Files/Pods-SCloudLiveChat/Pods-SCloudLiveChat.debug.xcconfig"; sourceTree = "<group>"; };
+		A90A7CBF2EA59ADBD327298A /* Pods-LiveChat.distribute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChat.distribute.xcconfig"; path = "Target Support Files/Pods-LiveChat/Pods-LiveChat.distribute.xcconfig"; sourceTree = "<group>"; };
+		D17E6341BF34DDDEF338DEB1 /* Pods-LiveChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChat.debug.xcconfig"; path = "Target Support Files/Pods-LiveChat/Pods-LiveChat.debug.xcconfig"; sourceTree = "<group>"; };
+		DB78DCDA246A9ED0007489D6 /* README.zh.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.zh.md; sourceTree = "<group>"; };
+		DB78DCDB246A9ED0007489D6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E5341266234D90F500D9AA77 /* DataEnvironment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataEnvironment.h; sourceTree = "<group>"; };
+		E5341267234D90F500D9AA77 /* DataEnvironment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataEnvironment.m; sourceTree = "<group>"; };
+		E5341269234E064900D9AA77 /* ThunderUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThunderUserInfo.h; sourceTree = "<group>"; };
+		E534126A234E064900D9AA77 /* ThunderUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThunderUserInfo.m; sourceTree = "<group>"; };
+		E534126C234E2A5C00D9AA77 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		E534126D234E2A5C00D9AA77 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		E534126F234F072500D9AA77 /* LivingRoomViewController+Thunder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LivingRoomViewController+Thunder.h"; sourceTree = "<group>"; };
+		E5341270234F072500D9AA77 /* LivingRoomViewController+Thunder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LivingRoomViewController+Thunder.m"; sourceTree = "<group>"; };
+		E5341272234F0BC900D9AA77 /* LivingRoomViewController+Hummer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LivingRoomViewController+Hummer.h"; sourceTree = "<group>"; };
+		E5341273234F0BC900D9AA77 /* LivingRoomViewController+Hummer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LivingRoomViewController+Hummer.m"; sourceTree = "<group>"; };
+		E5926628234C97AE00EAC21F /* ToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBar.m; sourceTree = "<group>"; };
+		E5926629234C97AE00EAC21F /* ToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBar.h; sourceTree = "<group>"; };
+		E5C62EDC2338C75C009FEAFB /* LiveChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C62EDF2338C75C009FEAFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5C62EE02338C75C009FEAFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5C62EE22338C75C009FEAFB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E5C62EE32338C75C009FEAFB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E5C62EE92338C75C009FEAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5C62EEB2338C75D009FEAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5C62EEE2338C75D009FEAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5C62EF12338C75D009FEAFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5C62EFC2338D27C009FEAFB /* LiveChat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LiveChat-Info.plist"; sourceTree = "<group>"; };
+		E5C62F002338D3FB009FEAFB /* JoinRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinRoomViewController.m; sourceTree = "<group>"; };
+		E5C62F012338D3FB009FEAFB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E5C62F032338D3FB009FEAFB /* MemberListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberListViewController.m; sourceTree = "<group>"; };
+		E5C62F042338D3FB009FEAFB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E5C62F052338D3FB009FEAFB /* JoinRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinRoomViewController.h; sourceTree = "<group>"; };
+		E5C62F062338D3FB009FEAFB /* MemberListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberListViewController.h; sourceTree = "<group>"; };
+		E5C62F092338D3FB009FEAFB /* HummerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HummerManager.h; sourceTree = "<group>"; };
+		E5C62F0A2338D3FB009FEAFB /* HummerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HummerManager.m; sourceTree = "<group>"; };
+		E5C62F0C2338D3FB009FEAFB /* HMRUser+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HMRUser+Additions.h"; sourceTree = "<group>"; };
+		E5C62F0D2338D3FB009FEAFB /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		E5C62F0E2338D3FB009FEAFB /* ChatMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessageProtocol.h; sourceTree = "<group>"; };
+		E5C62F0F2338D3FB009FEAFB /* ChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessage.m; sourceTree = "<group>"; };
+		E5C62F102338D3FB009FEAFB /* HMRChatRoom+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HMRChatRoom+Additions.h"; sourceTree = "<group>"; };
+		E5C62F112338D3FB009FEAFB /* SystemMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemMessage.m; sourceTree = "<group>"; };
+		E5C62F122338D3FB009FEAFB /* HMRUser+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HMRUser+Additions.m"; sourceTree = "<group>"; };
+		E5C62F132338D3FB009FEAFB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E5C62F142338D3FB009FEAFB /* SystemMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMessage.h; sourceTree = "<group>"; };
+		E5C62F152338D3FB009FEAFB /* HMRChatRoom+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HMRChatRoom+Additions.m"; sourceTree = "<group>"; };
+		E5C62F162338D3FB009FEAFB /* ChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessage.h; sourceTree = "<group>"; };
+		E5C62F182338D3FB009FEAFB /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		E5C62F192338D3FB009FEAFB /* MemberListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberListCell.m; sourceTree = "<group>"; };
+		E5C62F1A2338D3FB009FEAFB /* MessageSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageSendView.m; sourceTree = "<group>"; };
+		E5C62F1D2338D3FB009FEAFB /* JoinOperationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinOperationView.h; sourceTree = "<group>"; };
+		E5C62F1E2338D3FB009FEAFB /* MessageSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageSendView.h; sourceTree = "<group>"; };
+		E5C62F1F2338D3FB009FEAFB /* MemberListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberListCell.h; sourceTree = "<group>"; };
+		E5C62F202338D3FB009FEAFB /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		E5C62F232338D3FB009FEAFB /* JoinOperationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinOperationView.m; sourceTree = "<group>"; };
+		E5C62F34233A0A59009FEAFB /* LivingOperationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LivingOperationView.h; sourceTree = "<group>"; };
+		E5C62F35233A0A59009FEAFB /* LivingOperationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivingOperationView.m; sourceTree = "<group>"; };
+		E5C62F37233A55E6009FEAFB /* LivingRoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LivingRoomViewController.h; sourceTree = "<group>"; };
+		E5C62F38233A55E6009FEAFB /* LivingRoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivingRoomViewController.m; sourceTree = "<group>"; };
+		E5C62F3A233B74CA009FEAFB /* ThunderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThunderManager.h; sourceTree = "<group>"; };
+		E5C62F3B233B74CA009FEAFB /* ThunderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThunderManager.m; sourceTree = "<group>"; };
+		E5C62F45233FB0FD009FEAFB /* UserPickerData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPickerData.h; sourceTree = "<group>"; };
+		E5C62F46233FB0FD009FEAFB /* UserPickerData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPickerData.m; sourceTree = "<group>"; };
+		F717BDF7CC99DD8D4E9FA0CB /* Pods-LiveChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChat.release.xcconfig"; path = "Target Support Files/Pods-LiveChat/Pods-LiveChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5C62ED92338C75C009FEAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15B559A3A5A7A9942A2DF8F /* libPods-LiveChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BAD5A66D0526E925FDEB8A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99D573302BA3034429B98ED9 /* Pods-SCloudLiveChat.debug.xcconfig */,
+				1DE0BEFD4ECF64F988208441 /* Pods-SCloudLiveChat.release.xcconfig */,
+				40332E5136D3F92906D7CCD3 /* Pods-SCloudLiveChat.distribute.xcconfig */,
+				D17E6341BF34DDDEF338DEB1 /* Pods-LiveChat.debug.xcconfig */,
+				F717BDF7CC99DD8D4E9FA0CB /* Pods-LiveChat.release.xcconfig */,
+				A90A7CBF2EA59ADBD327298A /* Pods-LiveChat.distribute.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5C62ED32338C75C009FEAFB = {
+			isa = PBXGroup;
+			children = (
+				DB78DCDB246A9ED0007489D6 /* README.md */,
+				DB78DCDA246A9ED0007489D6 /* README.zh.md */,
+				E5C62EDE2338C75C009FEAFB /* LiveChat */,
+				E5C62EDD2338C75C009FEAFB /* Products */,
+				9BAD5A66D0526E925FDEB8A1 /* Pods */,
+				FC2F0855E2D7BF6057D6AB40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5C62EDD2338C75C009FEAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5C62EDC2338C75C009FEAFB /* LiveChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5C62EDE2338C75C009FEAFB /* LiveChat */ = {
+			isa = PBXGroup;
+			children = (
+				E5C62EDF2338C75C009FEAFB /* AppDelegate.h */,
+				E5C62EE02338C75C009FEAFB /* AppDelegate.m */,
+				E5C62EE22338C75C009FEAFB /* SceneDelegate.h */,
+				E5C62EE32338C75C009FEAFB /* SceneDelegate.m */,
+				E5C62EFE2338D3FB009FEAFB /* Demo */,
+				E5C62EE82338C75C009FEAFB /* Main.storyboard */,
+				E5C62EEB2338C75D009FEAFB /* Assets.xcassets */,
+				E5C62EED2338C75D009FEAFB /* LaunchScreen.storyboard */,
+				E5C62EFC2338D27C009FEAFB /* LiveChat-Info.plist */,
+				E5C62EF12338C75D009FEAFB /* main.m */,
+			);
+			path = LiveChat;
+			sourceTree = "<group>";
+		};
+		E5C62EFE2338D3FB009FEAFB /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E5C62F082338D3FB009FEAFB /* Common */,
+				E5C62EFF2338D3FB009FEAFB /* Controller */,
+				E5C62F0B2338D3FB009FEAFB /* Model */,
+				E5C62F172338D3FB009FEAFB /* View */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		E5C62EFF2338D3FB009FEAFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5C62F012338D3FB009FEAFB /* LoginViewController.h */,
+				E5C62F042338D3FB009FEAFB /* LoginViewController.m */,
+				E5C62F052338D3FB009FEAFB /* JoinRoomViewController.h */,
+				E5C62F002338D3FB009FEAFB /* JoinRoomViewController.m */,
+				E5C62F37233A55E6009FEAFB /* LivingRoomViewController.h */,
+				E5C62F38233A55E6009FEAFB /* LivingRoomViewController.m */,
+				E534126F234F072500D9AA77 /* LivingRoomViewController+Thunder.h */,
+				E5341270234F072500D9AA77 /* LivingRoomViewController+Thunder.m */,
+				E5341272234F0BC900D9AA77 /* LivingRoomViewController+Hummer.h */,
+				E5341273234F0BC900D9AA77 /* LivingRoomViewController+Hummer.m */,
+				E5C62F062338D3FB009FEAFB /* MemberListViewController.h */,
+				E5C62F032338D3FB009FEAFB /* MemberListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5C62F082338D3FB009FEAFB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E5C62F092338D3FB009FEAFB /* HummerManager.h */,
+				E5C62F0A2338D3FB009FEAFB /* HummerManager.m */,
+				E5C62F3A233B74CA009FEAFB /* ThunderManager.h */,
+				E5C62F3B233B74CA009FEAFB /* ThunderManager.m */,
+				E5341266234D90F500D9AA77 /* DataEnvironment.h */,
+				E5341267234D90F500D9AA77 /* DataEnvironment.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E5C62F0B2338D3FB009FEAFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5C62F132338D3FB009FEAFB /* User.h */,
+				E5C62F0D2338D3FB009FEAFB /* User.m */,
+				E5C62F0C2338D3FB009FEAFB /* HMRUser+Additions.h */,
+				E5C62F122338D3FB009FEAFB /* HMRUser+Additions.m */,
+				E5C62F102338D3FB009FEAFB /* HMRChatRoom+Additions.h */,
+				E5C62F152338D3FB009FEAFB /* HMRChatRoom+Additions.m */,
+				E5C62F0E2338D3FB009FEAFB /* ChatMessageProtocol.h */,
+				E5C62F162338D3FB009FEAFB /* ChatMessage.h */,
+				E5C62F0F2338D3FB009FEAFB /* ChatMessage.m */,
+				E5C62F142338D3FB009FEAFB /* SystemMessage.h */,
+				E5C62F112338D3FB009FEAFB /* SystemMessage.m */,
+				E5341269234E064900D9AA77 /* ThunderUserInfo.h */,
+				E534126A234E064900D9AA77 /* ThunderUserInfo.m */,
+				E5C62F45233FB0FD009FEAFB /* UserPickerData.h */,
+				E5C62F46233FB0FD009FEAFB /* UserPickerData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5C62F172338D3FB009FEAFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5C62F1D2338D3FB009FEAFB /* JoinOperationView.h */,
+				E5C62F232338D3FB009FEAFB /* JoinOperationView.m */,
+				E5C62F34233A0A59009FEAFB /* LivingOperationView.h */,
+				E5C62F35233A0A59009FEAFB /* LivingOperationView.m */,
+				E5926629234C97AE00EAC21F /* ToolBar.h */,
+				E5926628234C97AE00EAC21F /* ToolBar.m */,
+				E534126C234E2A5C00D9AA77 /* CanvasView.h */,
+				E534126D234E2A5C00D9AA77 /* CanvasView.m */,
+				E5C62F1E2338D3FB009FEAFB /* MessageSendView.h */,
+				E5C62F1A2338D3FB009FEAFB /* MessageSendView.m */,
+				E5C62F1F2338D3FB009FEAFB /* MemberListCell.h */,
+				E5C62F192338D3FB009FEAFB /* MemberListCell.m */,
+				E5C62F182338D3FB009FEAFB /* MessageCell.h */,
+				E5C62F202338D3FB009FEAFB /* MessageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC2F0855E2D7BF6057D6AB40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9780E50DC08E7CA5A6143FA9 /* libPods-LiveChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5C62EDB2338C75C009FEAFB /* LiveChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C62EF52338C75D009FEAFB /* Build configuration list for PBXNativeTarget "LiveChat" */;
+			buildPhases = (
+				875E889C56E84AEE1E23C131 /* [CP] Check Pods Manifest.lock */,
+				E5C62ED82338C75C009FEAFB /* Sources */,
+				E5C62ED92338C75C009FEAFB /* Frameworks */,
+				E5C62EDA2338C75C009FEAFB /* Resources */,
+				457381647A2F588EA9C4853D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveChat;
+			productName = SCloudLiveChat;
+			productReference = E5C62EDC2338C75C009FEAFB /* LiveChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5C62ED42338C75C009FEAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = JLY;
+				TargetAttributes = {
+					E5C62EDB2338C75C009FEAFB = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = E5C62ED72338C75C009FEAFB /* Build configuration list for PBXProject "LiveChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5C62ED32338C75C009FEAFB;
+			productRefGroup = E5C62EDD2338C75C009FEAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5C62EDB2338C75C009FEAFB /* LiveChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5C62EDA2338C75C009FEAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C62EEF2338C75D009FEAFB /* LaunchScreen.storyboard in Resources */,
+				E5C62EEC2338C75D009FEAFB /* Assets.xcassets in Resources */,
+				E5C62EEA2338C75C009FEAFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		457381647A2F588EA9C4853D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveChat/Pods-LiveChat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveChat/Pods-LiveChat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiveChat/Pods-LiveChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875E889C56E84AEE1E23C131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5C62ED82338C75C009FEAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C62F272338D3FB009FEAFB /* LoginViewController.m in Sources */,
+				E592662A234C97AE00EAC21F /* ToolBar.m in Sources */,
+				E5C62F2F2338D3FB009FEAFB /* MessageSendView.m in Sources */,
+				E5C62F282338D3FB009FEAFB /* HummerManager.m in Sources */,
+				E5C62EE12338C75C009FEAFB /* AppDelegate.m in Sources */,
+				E5C62F332338D3FB009FEAFB /* JoinOperationView.m in Sources */,
+				E5C62F242338D3FB009FEAFB /* JoinRoomViewController.m in Sources */,
+				E5C62EF22338C75D009FEAFB /* main.m in Sources */,
+				E5341274234F0BC900D9AA77 /* LivingRoomViewController+Hummer.m in Sources */,
+				E5C62EE42338C75C009FEAFB /* SceneDelegate.m in Sources */,
+				E534126B234E064900D9AA77 /* ThunderUserInfo.m in Sources */,
+				E5C62F262338D3FB009FEAFB /* MemberListViewController.m in Sources */,
+				E5C62F47233FB0FD009FEAFB /* UserPickerData.m in Sources */,
+				E5C62F3C233B74CB009FEAFB /* ThunderManager.m in Sources */,
+				E534126E234E2A5C00D9AA77 /* CanvasView.m in Sources */,
+				E5C62F36233A0A59009FEAFB /* LivingOperationView.m in Sources */,
+				E5C62F2D2338D3FB009FEAFB /* HMRChatRoom+Additions.m in Sources */,
+				E5341271234F072500D9AA77 /* LivingRoomViewController+Thunder.m in Sources */,
+				E5C62F39233A55E6009FEAFB /* LivingRoomViewController.m in Sources */,
+				E5341268234D90F500D9AA77 /* DataEnvironment.m in Sources */,
+				E5C62F2B2338D3FB009FEAFB /* SystemMessage.m in Sources */,
+				E5C62F2C2338D3FB009FEAFB /* HMRUser+Additions.m in Sources */,
+				E5C62F292338D3FB009FEAFB /* User.m in Sources */,
+				E5C62F312338D3FB009FEAFB /* MessageCell.m in Sources */,
+				E5C62F2A2338D3FB009FEAFB /* ChatMessage.m in Sources */,
+				E5C62F2E2338D3FB009FEAFB /* MemberListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5C62EE82338C75C009FEAFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5C62EE92338C75C009FEAFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5C62EED2338C75D009FEAFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5C62EEE2338C75D009FEAFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5C62EF32338C75D009FEAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5C62EF42338C75D009FEAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5C62EF62338C75D009FEAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D17E6341BF34DDDEF338DEB1 /* Pods-LiveChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "LiveChat/LiveChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.8.0_2.6.108;
+				PRODUCT_BUNDLE_IDENTIFIER = rays.demo.enterprise.livechat;
+				PRODUCT_NAME = LiveChat;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5C62EF72338C75D009FEAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F717BDF7CC99DD8D4E9FA0CB /* Pods-LiveChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "LiveChat/LiveChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.8.0_2.6.108;
+				PRODUCT_BUNDLE_IDENTIFIER = rays.demo.enterprise.livechat;
+				PRODUCT_NAME = LiveChat;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5C62EF82338D20E009FEAFB /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribute;
+		};
+		E5C62EF92338D20E009FEAFB /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90A7CBF2EA59ADBD327298A /* Pods-LiveChat.distribute.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "LiveChat/LiveChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.8.0_2.6.108;
+				PRODUCT_BUNDLE_IDENTIFIER = rays.demo.enterprise.livechat;
+				PRODUCT_NAME = LiveChat;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribute;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5C62ED72338C75C009FEAFB /* Build configuration list for PBXProject "LiveChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C62EF32338C75D009FEAFB /* Debug */,
+				E5C62EF42338C75D009FEAFB /* Release */,
+				E5C62EF82338D20E009FEAFB /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C62EF52338C75D009FEAFB /* Build configuration list for PBXNativeTarget "LiveChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C62EF62338C75D009FEAFB /* Debug */,
+				E5C62EF72338C75D009FEAFB /* Release */,
+				E5C62EF92338D20E009FEAFB /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5C62ED42338C75C009FEAFB /* Project object */;
+}

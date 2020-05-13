@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/yyqapm/specs.git'
+
+
+target 'LiveChat' do
+
+pod 'Hummer/ChatRoom',              '2.6.108'
+pod 'thunder',                      '2.8.0'
+
+pod 'AFNetworking',                 '3.2.1'
+
+pod 'Masonry',                      '~> 1.1'
+pod 'IQKeyboardManager',            '6.4.0'
+
+pod 'LiteDevToolKit',             :path => './LocalPods/LiteDevToolKit'
+pod 'FeedbackComponent',          :path => './LocalPods/FeedbackComponent'
+
+
+
+
+end

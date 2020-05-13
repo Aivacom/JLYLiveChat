@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_mode">
+        <item>语音通话模式</item>
+        <item>唱歌娱乐模式</item>
+    </string-array>
+
+    <string-array name="video_mode">
+        <item>流畅连麦</item>
+        <item>标清连麦</item>
+        <item>高清连麦</item>
+    </string-array>
+
+    <string-array name="audio_speaker_earpiece">
+        <item>扬声器</item>
+        <item>听 筒</item>
+    </string-array>
+</resources>

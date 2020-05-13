@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#FF333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/toolbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="23dp"
+            android:text="退出登录"
+            android:textColor="#FF6485F9"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/et_roomid"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp36"
+        android:layout_marginRight="@dimen/dp16"
+        android:background="@drawable/bg_feedback_content"
+        android:digits="1234567890"
+        android:gravity="left|center"
+        android:hint="请输入房间号"
+        android:importantForAutofill="no"
+        android:inputType="phone|number"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black95"
+        android:textSize="@dimen/sp15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/btn_join_room"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp16"
+        android:background="@drawable/btn_selector_status"
+        android:enabled="false"
+        android:text="加入房间"
+        android:textColor="@color/white95"
+        android:textSize="@dimen/sp15"
+        app:layout_constraintLeft_toLeftOf="@+id/et_roomid"
+        app:layout_constraintTop_toBottomOf="@+id/et_roomid" />
+
+
+    <Button
+        android:id="@+id/btn_create_room"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginBottom="47dp"
+        android:background="@drawable/bg_blue_shape"
+        android:text="创建房间"
+        android:textColor="@color/blue_font"
+        android:textSize="@dimen/sp15"
+        app:layout_constraintBottom_toTopOf="@+id/tv_app_version"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_app_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp20"
+        android:gravity="center"
+        android:textColor="#FF999999"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
