@@ -3,8 +3,6 @@
 
 English Version： [English](README.md)
 
-<br />
-
 概述
 -------------------------------------------------------------
 本文主要介绍如何使用 ThunderBolt 和 Hummer::ChatRoom iOS版本SDK实现聊天室功能，基于该场景，将对实现步骤做简要说明。
@@ -16,8 +14,6 @@ English Version： [English](README.md)
 > API开发手册，请访问： [IOS API](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/api/iOS/v2.7.0/category.html)
 
 > 相关Demo下载，请访问：[SDK及Demo下载](https://docs.aivacom.com/download)
-
-<br />
    
 引用API
 -------------------------------------------------------------
