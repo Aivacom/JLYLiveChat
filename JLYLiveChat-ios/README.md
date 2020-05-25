@@ -7,7 +7,7 @@ Use ThunderBolt and Hummer :: ChatRoom SDK to implement chat room functions
 
 Overview
 -------------------------------------------------------------
-- This article mainly introduces how to use ThunderBolt and Hummer :: ChatRoom iOS SDK to implement the chat room function. Based on this scenario, the implementation steps will be briefly explained.
+This article mainly introduces how to use ThunderBolt and Hummer :: ChatRoom iOS SDK to implement the chat room function. Based on this scenario, the implementation steps will be briefly explained.
 
 We provide comprehensive user access documentation so that users can quickly access audio and video capabilities.If you want to know the specific integration method, interface description, and related scenario Demo, you can click the following link to learn:
 
