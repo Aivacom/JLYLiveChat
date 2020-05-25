@@ -1,6 +1,6 @@
+## 使用 Thunderbolt 和 Hummer 流程
 *English Version: [English](README.md)*
 
-## 概述
 我们提供全面的用户接入文档，来方便用户实现音视频能力的快速接入，如果您想了解具体集成方法、接口说明、相关场景Demo，可点击如下链接了解：
 
 > 集成SDK到APP，请参考：[SDK集成方法](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/integration_and_start/integration_and_start_android.html)
@@ -8,8 +8,6 @@
 > API开发手册，请访问： [Android API](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/api/Android/v2.7.0/category.html)
 
 > 相关Demo下载，请访问：[SDK及Demo下载](https://docs.aivacom.com/download)
-
-## 使用 Thunderbolt 和 Hummer 流程
 
 ### ThunderBolt实现步骤
 （1）首先创建一个`IThunderEngine`实例，并进行初始化操作。
